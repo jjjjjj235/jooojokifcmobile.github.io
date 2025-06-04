@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>Website Mobile</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+</head>
+<body>
+    <!-- Header dengan tombol menu -->
+    <header>
+        <div class="container">
+            <div class="logo">MobileSite</div>
+            <div class="menu-toggle">
+                <i class="fas fa-bars"></i>
+            </div>
+            <nav class="nav-menu">
+                <a href="#home">Beranda</a>
+                <a href="#about">Tentang</a>
+                <a href="#services">Layanan</a>
+                <a href="#contact">Kontak</a>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Konten utama -->
+    <main>
+        <!-- Section Beranda -->
+        <section id="home" class="hero-section">
+            <div class="hero-content">
+                <h1>Selamat Datang</h1>
+                <p>Website yang dioptimalkan untuk perangkat mobile</p>
+                <button class="btn">Mulai Jelajahi</button>
+            </div>
+        </section>
+
+        <!-- Section Tentang -->
+        <section id="about" class="about-section">
+            <h2>Tentang Kami</h2>
+            <div class="about-content">
+                <img src="https://via.placeholder.com/300" alt="Tentang Kami" class="about-img">
+                <p>Kami menyediakan solusi digital yang dioptimalkan untuk perangkat mobile dengan performa terbaik.</p>
+            </div>
+        </section>
+
+        <!-- Section Layanan -->
+        <section id="services" class="services-section">
+            <h2>Layanan Kami</h2>
+            <div class="services-grid">
+                <div class="service-card">
+                    <i class="fas fa-mobile-alt service-icon"></i>
+                    <h3>Mobile Development</h3>
+                    <p>Pengembangan aplikasi mobile berkualitas tinggi</p>
+                </div>
+                <div class="service-card">
+                    <i class="fas fa-globe service-icon"></i>
+                    <h3>Web Mobile</h3>
+                    <p>Website yang dioptimalkan untuk perangkat mobile</p>
+                </div>
+                <div class="service-card">
+                    <i class="fas fa-search service-icon"></i>
+                    <h3>SEO Mobile</h3>
+                    <p>Optimasi untuk mesin pencari versi mobile</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Section Kontak -->
+        <section id="contact" class="contact-section">
+            <h2>Hubungi Kami</h2>
+            <form class="contact-form">
+                <input type="text" placeholder="Nama Anda" required>
+                <input type="email" placeholder="Email Anda" required>
+                <input type="tel" placeholder="Nomor HP">
+                <textarea placeholder="Pesan Anda" required></textarea>
+                <button type="submit" class="btn">Kirim Pesan</button>
+            </form>
+            <div class="contact-info">
+                <p><i class="fas fa-phone"></i> +62 812-3456-7890</p>
+                <p><i class="fas fa-envelope"></i> info@mobilesite.com</p>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <div class="social-links">
+            <a href="#"><i class="fab fa-whatsapp"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+            <a href="#"><i class="fab fa-facebook"></i></a>
+        </div>
+        <p>&copy; 2023 MobileSite. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
